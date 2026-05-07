@@ -1,0 +1,26 @@
+{
+  "tables" : {
+    "students" : {
+      "name" : "students",
+      "columns" : [ {
+        "name" : "id",
+        "type" : "INTEGER",
+        "primaryKey" : true
+      }, {
+        "name" : "name",
+        "type" : "STRING",
+        "primaryKey" : false
+      }, {
+        "name" : "score",
+        "type" : "DOUBLE",
+        "primaryKey" : false
+      } ]
+    }
+  },
+  "tableRootPages" : {
+    "students" : 1
+  },
+  "tableNextPages" : {
+    "students" : 2
+  }
+}

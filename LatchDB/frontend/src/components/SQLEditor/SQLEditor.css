@@ -1,0 +1,56 @@
+.sql-editor {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.sql-editor textarea {
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sql-editor button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sql-editor button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.results {
+    overflow: auto;
+    flex-grow: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
